@@ -1,0 +1,44 @@
+/**
+ * Bootstrap overrides for the react-list-app
+ */
+body {
+  background: whitesmoke;
+}
+h1 {
+  margin: 20px auto;
+}
+.form-inline .form-group {
+  margin-bottom: 10px;
+}
+.list-group-item {
+  cursor: pointer;
+  padding: 0 15px;
+  line-height: 40px;
+}
+.list-group-item .flag {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+}
+.well {
+  background: white;
+}
+.well h3 {
+  margin: 0 auto 30px;
+}
+button.close {
+  font-size: 26px;
+}
+button.close:hover,
+button.close:focus,
+button.close:active {
+  outline: none;
+  border: 0;
+  box-shadow: none;
+}
+.array-list:after {
+  content: ', ';
+}
+.array-list:last-of-type:after {
+  content: '';
+}
