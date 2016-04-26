@@ -1,10 +1,9 @@
-# react-list-app
+react-list-app
+======
 
-git clone [link]
-
-npm install
-
-(npm install webpack -g)
-
-npm start
+To get started:
+1. git clone [link]
+2. npm install
+3. (npm install webpack -g)
+4. npm start
 
