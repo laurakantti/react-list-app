@@ -8,8 +8,7 @@ export default class CountryDetail extends Component {
   render() {
     const { country } = this.props;
     /** Get data that comes in as arrays and map them */
-    let timezones, languages, currencies,
-        altSpellings, latlng;
+    let timezones, languages, currencies, altSpellings, latlng;
     (country.timezones)
       ? timezones = country.timezones.map((value, key) =>
           <span className='array-list' key={key}>{value}</span>

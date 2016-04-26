@@ -69,7 +69,7 @@ export default class AppContainer extends Component {
 
   /** Hide the detail view */
   handleDetailViewClose() {
-    this.setState({listVisibility: true, detailVisibility: false});
+    this.setState({listVisibility: true, query: '', detailVisibility: false});
   }
 
   /** Return the dynamic classname for the list */
