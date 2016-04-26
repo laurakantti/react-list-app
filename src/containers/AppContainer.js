@@ -64,7 +64,7 @@ export default class AppContainer extends Component {
 
   /** Show the detail view */
   handleDetailViewOpen(country) {
-    this.setState({activeCountry: country, query: '', listVisibility: false, detailVisibility: true});
+    this.setState({activeCountry: country, query: country.name, listVisibility: false, detailVisibility: true});
   }
 
   /** Hide the detail view */
