@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 
 import CountryList from '../components/CountryList';
 import CountryDetail from '../components/CountryDetail';
