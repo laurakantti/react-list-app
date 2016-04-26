@@ -135,10 +135,3 @@ export default class AppContainer extends Component {
     )
   }
 }
-
-/**
- * PropTypes
- */
-AppContainer.propTypes = {
-  // countries:
-}
